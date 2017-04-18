@@ -1,0 +1,6 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: ${peer1.url}/eureka,${peer2.url}/eureka
+    register-with-eureka: false
+      
